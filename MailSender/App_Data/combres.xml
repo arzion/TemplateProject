@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<combres xmlns='urn:combres'>
+	<filters>
+		<filter type="Combres.Filters.FixUrlsInCssFilter, Combres" />
+		<filter type="Combres.Filters.DotLessCssCombineFilter, Combres" acceptedResourceSets="CommonCssExternal;CommonCss" />
+	</filters>
+	<resourceSets
+		url="~/combres.axd"
+		defaultDuration="30"
+		defaultVersion="auto"
+		defaultDebugEnabled="true">
+
+		<!--Styles resources-->
+		<resourceSet name="CommonCssExternal" type="css">
+			<resource path="~/content/css/external/font-awesome-4.3.0/less/font-awesome.less" mode="Dynamic"/>
+			<resource path="~/content/css/external/bootstrap/css/bootstrap.min.css" mode="Dynamic"/>
+			<resource path="~/content/css/external/bootstrap/css/bootstrap-theme.min.css" mode="Dynamic"/>
+		</resourceSet>
+		<resourceSet name="CommonCss" type="css">
+			<resource reference="CommonCssExternal"/>
+		</resourceSet>
+
+		<!--JavaScrip resources-->
+		<resourceSet name="CommonJsExternal" type="js" ignorePipelineWhenDebug="true">
+			<resource path="~/content/js/external/jquery-2.1.1.min.js" />
+			<resource path="~/content/js/external/knockout-3.1.0.js" />
+			<resource path="~/content/js/external/bootstrap.min.js" />
+		</resourceSet>
+		<resourceSet name="CommonJs" type="js" ignorePipelineWhenDebug="true">
+			<resource reference="CommonJsExternal"/>
+			<resource path="~/content/js/common/common.js" />
+		</resourceSet>
+	</resourceSets>
+</combres>

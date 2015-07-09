@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSender.WebUI", "MailSender\MailSender.WebUI.csproj", "{FDB51DEE-4DF2-4AB9-B576-5FE5343771FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSender.Common", "MailSender.Common\MailSender.Common.csproj", "{E4023E5E-6718-4CDB-9498-6A829FD8A06F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSender.DomainModel", "MailSender.DomainModel\MailSender.DomainModel.csproj", "{B471900E-35BE-49B7-B9AE-B2209D2598B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSender.DataAccess", "MailSender.DataAccess\MailSender.DataAccess.csproj", "{BF3E384C-E062-4E8D-AD26-B4ABB1CC4D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSender.Services", "MailSender.Services\MailSender.Services.csproj", "{DA061EBA-729B-44FC-8F47-47A1D232F6D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSender.DTO", "MailSender.DTO\MailSender.DTO.csproj", "{11E13190-4ECB-45CB-A62A-20C45BDEE5A8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://muson.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MailSender.Common\\MailSender.Common.csproj
+		SccProjectName1 = MailSender.Common
+		SccLocalPath1 = MailSender.Common
+		SccProjectUniqueName2 = MailSender\\MailSender.WebUI.csproj
+		SccProjectName2 = MailSender
+		SccLocalPath2 = MailSender
+		SccProjectUniqueName3 = MailSender.DomainModel\\MailSender.DomainModel.csproj
+		SccProjectName3 = MailSender.DomainModel
+		SccLocalPath3 = MailSender.DomainModel
+		SccProjectUniqueName4 = MailSender.DataAccess\\MailSender.DataAccess.csproj
+		SccProjectName4 = MailSender.DataAccess
+		SccLocalPath4 = MailSender.DataAccess
+		SccProjectUniqueName5 = MailSender.Services\\MailSender.Services.csproj
+		SccProjectName5 = MailSender.Services
+		SccLocalPath5 = MailSender.Services
+		SccProjectUniqueName6 = MailSender.DTO\\MailSender.DTO.csproj
+		SccProjectName6 = MailSender.DTO
+		SccLocalPath6 = MailSender.DTO
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDB51DEE-4DF2-4AB9-B576-5FE5343771FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB51DEE-4DF2-4AB9-B576-5FE5343771FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB51DEE-4DF2-4AB9-B576-5FE5343771FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB51DEE-4DF2-4AB9-B576-5FE5343771FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4023E5E-6718-4CDB-9498-6A829FD8A06F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4023E5E-6718-4CDB-9498-6A829FD8A06F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4023E5E-6718-4CDB-9498-6A829FD8A06F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4023E5E-6718-4CDB-9498-6A829FD8A06F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B471900E-35BE-49B7-B9AE-B2209D2598B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B471900E-35BE-49B7-B9AE-B2209D2598B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B471900E-35BE-49B7-B9AE-B2209D2598B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B471900E-35BE-49B7-B9AE-B2209D2598B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3E384C-E062-4E8D-AD26-B4ABB1CC4D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3E384C-E062-4E8D-AD26-B4ABB1CC4D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3E384C-E062-4E8D-AD26-B4ABB1CC4D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3E384C-E062-4E8D-AD26-B4ABB1CC4D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA061EBA-729B-44FC-8F47-47A1D232F6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA061EBA-729B-44FC-8F47-47A1D232F6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA061EBA-729B-44FC-8F47-47A1D232F6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA061EBA-729B-44FC-8F47-47A1D232F6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E13190-4ECB-45CB-A62A-20C45BDEE5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E13190-4ECB-45CB-A62A-20C45BDEE5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E13190-4ECB-45CB-A62A-20C45BDEE5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E13190-4ECB-45CB-A62A-20C45BDEE5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
